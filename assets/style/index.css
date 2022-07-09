@@ -1,0 +1,64 @@
+@import "./nav.css";
+@import "./introduce.css";
+@import "./description.css";
+@import "./skills.css";
+@import "./portfolio.css";
+@import "./form.css";
+@import "./footer.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: #fffefd;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*=col-] {
+  padding: 1rem;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.title {
+  font-weight: 650;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #0093dd;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 200, 100, 0.25);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*//*# sourceMappingURL=index.css.map */

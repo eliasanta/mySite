@@ -1,0 +1,17 @@
+footer {
+  background-color: rgba(0, 147, 221, 0.8);
+  color: black;
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer--logo {
+  font-size: 2rem;
+}
+
+.footer--down {
+  background-color: rgba(0, 147, 221, 0.5);
+  font-size: 0.8rem;
+}/*# sourceMappingURL=footer.css.map */

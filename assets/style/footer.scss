@@ -1,0 +1,16 @@
+@import "./colors.scss";
+footer {
+  width: 100wh;
+  background-color: rgba($myBlue,0.8);
+  color: black;
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.footer--logo {
+  font-size: 2rem;
+}
+.footer--down{
+  background-color: rgba($myBlue); font-size: 0.8rem
+}
