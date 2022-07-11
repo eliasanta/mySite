@@ -317,6 +317,36 @@
           alt="logo react"
         />
       </div>
+      <div class="logo--skills--container">
+        <div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">GIT</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body p-3">
+               <p><strong>What is Git ?</strong><br>
+                Git is the most commonly used version control system. <br>
+               It tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. <br>
+              <p>Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. </p> 
+               <p>So regardless of whether you write code that only you will see, or work as part of a team, Git will be useful.</p>
+                <a href="https://git-scm.com/" target="_blank" style="color: blue;">Learn GIT</a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          type="button" class="btn logo-skills m-3" data-toggle="modal" data-target="#Modal7"
+          src="assets/img/git.jpg"
+          alt="logo react"
+        />
+      </div>
     </div>
 
     <!--- Portfolio -->
@@ -371,8 +401,8 @@
       <div class="col-md-10 col-lg-7">
         <form
           id="contact-form"
-          action=""
-          method="post"
+          action="https://formsubmit.co/eliasanta93@gmail.com" 
+          method="POST"
           role="form"
           class="contactForm"
         >
@@ -409,6 +439,7 @@
               data-rule="email"
               data-msg="invalid email"
               placeholder="Enter email"
+              required
             />
             <div class="validation"></div>
           </div>
