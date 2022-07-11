@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -33,7 +34,7 @@
 }
 
 .portfolio--screen:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 147, 221, 0.3), 0 6px 20px 0 rgba(0, 147, 221, 0.2);
+  box-shadow: 10px 10px 10px rgba(192, 212, 250, 0.6), 10px 10px 10px rgba(192, 212, 250, 0.5);
   transition: 0.5s;
 }
 
@@ -46,4 +47,12 @@
   bottom: 0;
   left: 30%;
   text-decoration: none;
+}
+
+.portfolio--grid--title {
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Edu SA Beginner", cursive;
 }/*# sourceMappingURL=portfolio.css.map */

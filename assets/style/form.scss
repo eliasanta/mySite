@@ -1,3 +1,4 @@
+@import './colors.scss';
 .form-content {
   display: flex;
   flex-direction: column;
@@ -6,16 +7,16 @@
   margin-top: 150px;
 }
 .btn-one {
-  color: #fff;
-  background-color: #0093dd;
-  border-color: #0093dd;
+  color: black;
+  background-color: $navFootBackground;
+  border-color: $myBlue;
   border-radius: 20px;
   width: 100px;
+  border:1px solid $myBlue;
+
 }
 .btn-one:hover {
-  color: #fff;
-  background-color: #53b6e7;
-  border-color: #0093dd;
-  border-radius: 20px;
-  width: 100px;
+  color: black;
+  background-color: $navFootOpacityBackground;
+  border-color: $myBlue;
 }

@@ -1,4 +1,14 @@
+.navbar {
+  background-color: rgb(192, 212, 250);
+  padding: 0.5rem 0rem;
+}
+
 .nav-item {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
 }/*# sourceMappingURL=nav.css.map */

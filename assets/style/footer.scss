@@ -1,8 +1,9 @@
 @import "./colors.scss";
+
+
 footer {
   width: 100wh;
-  background-color: rgba($myBlue,0.8);
-  color: black;
+  background-color: $navFootOpacityBackground;
   margin-top: 100px;
   position: absolute;
   left: 0;
@@ -12,5 +13,7 @@ footer {
   font-size: 2rem;
 }
 .footer--down{
-  background-color: rgba($myBlue); font-size: 0.8rem
+  background-color: $navFootBackground; 
+  font-size: 0.8rem;
+  color:black;
 }

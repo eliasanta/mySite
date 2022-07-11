@@ -7,17 +7,16 @@
 }
 
 .btn-one {
-  color: #fff;
-  background-color: #0093dd;
+  color: black;
+  background-color: rgb(192, 212, 250);
   border-color: #0093dd;
   border-radius: 20px;
   width: 100px;
+  border: 1px solid #0093dd;
 }
 
 .btn-one:hover {
-  color: #fff;
-  background-color: #53b6e7;
+  color: black;
+  background-color: rgba(192, 212, 250, 0.6);
   border-color: #0093dd;
-  border-radius: 20px;
-  width: 100px;
 }/*# sourceMappingURL=form.css.map */

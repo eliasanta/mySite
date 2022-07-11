@@ -22,7 +22,7 @@
 }
 
 .logo-skills:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 147, 221, 0.3), 0 6px 20px 0 rgba(0, 147, 221, 0.2);
+  box-shadow: 7px 7px 8px 3px rgba(192, 212, 250, 0.5), 7px 7px 8px 3px rgba(192, 212, 250, 0.4);
   transition: 0.5s;
 }
 
