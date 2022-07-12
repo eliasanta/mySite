@@ -16,7 +16,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 20px 40px;
   background-color: $background;
 }
 /*--- Bootstrap Padding Fix --*/
@@ -50,6 +50,15 @@ a {
 .fas{
   color:black;
 }
+
+
+@media screen and (max-width: 600px)  {
+  body {
+    padding: 20px 10px;
+    background-color: $background;
+  }
+}
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

@@ -28,7 +28,7 @@
 
 .logo-skills:hover {
   box-shadow: 7px 7px 8px 3px rgba(192, 212, 250, 0.5), 7px 7px 8px 3px rgba(192, 212, 250, 0.4);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 600px) {
