@@ -17,5 +17,6 @@
 @media screen and (max-width: 600px) {
   .description {
     width: 100%;
+    padding: 0 2%;
   }
 }/*# sourceMappingURL=description.css.map */

@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   width: 100%;
   padding: 0 5%;
-  margin-top: 130px;
+  margin-top: 90px;
 }
 
 .image-portfolio {
@@ -55,4 +55,10 @@
   text-decoration: none;
   text-align: center;
   font-family: "Edu SA Beginner", cursive;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio {
+    margin-top: 60px;
+  }
 }/*# sourceMappingURL=portfolio.css.map */
