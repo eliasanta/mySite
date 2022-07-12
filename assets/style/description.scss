@@ -2,12 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 90%;
   padding: 0 5%;
   margin-bottom: 100px;
+  margin:0 auto;
 }
 .description--paragraphs {
   font-size: 21px;
   width: 90%;
   text-align: left;
 }
+@media screen and (max-width: 600px)  {
+  .description {
+     width: 100%;
+   
+  }
+  }

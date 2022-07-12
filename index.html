@@ -78,7 +78,7 @@
     <a name="introduce"></a>
     <section id="showcase">
       <div class="container introduce--container pl-1"data-aos="zoom-in"data-aos-duration="1500" data-aos-once="true">
-        <div class="col-sm-6 p-left-3">
+        <div class="col-sm-6 p-left-3 ">
           <h2 class="mb-3">Hello!</h2>
           <h5 class="mb-3 ">
             I'm
@@ -87,8 +87,11 @@
             >Elia Santagiuliana</strong
           ></a> 
           </h5>
-          <h5 class="mb-3">Junior Front End Developer</h5>
-        </div>
+          <h5 class="typewrite" data-period="2000" 
+          data-type='[ "Front End Developer", "Problem solver",  "Initiative and enterprise","Communication","Learning","Creative"]'>
+          <span class="wrap"></span>
+        </h5>
+        </div> 
         <div class="col-sm-6 self-justify-content-center">
           <img
             class="image--introduce"
@@ -357,9 +360,10 @@
 
       </div>
     </div>
-    <div class="mt-5 grid--portfolio " data-aos="fade-up"data-aos-duration="1500" data-aos-once="true">
+    <div class="mt-5 grid--portfolio " ><!-- data-aos="fade-up"data-aos-duration="1500" data-aos-once="true" -->
       <div class="logo--portfolio--container ">
-        <a href="https://countersheep.netlify.app/"  target="_blank"> <img
+        <a href="https://countersheep.netlify.app/"   target="_blank"> <img
+          data-aos="flip-left"data-aos-duration="1500" data-aos-once="true"
           class="portfolio--screen m-3 "
           src="assets/img/screenshoot/screenshot-counter.jpg"
           alt="logo html"
@@ -369,6 +373,7 @@
       <div class="logo--portfolio--container">
         <a href="https://library-api-project.netlify.app/" target="_blank">
         <img
+        data-aos="flip-left"data-aos-duration="1500" data-aos-once="true"
           class="portfolio--screen m-3 "
           src="assets/img//screenshoot/Screenshot_library_API_project.png"
           alt="logo css"
@@ -378,6 +383,7 @@
       <div class="logo--portfolio--container">
         <a href="https://vegetarian-recipe.netlify.app/" target="_blank">
         <img
+         data-aos="flip-left"data-aos-duration="1500" data-aos-once="true"
           class="portfolio--screen m-3 "
           src="assets/img/screenshoot/screenshot-vegetarian.jpg"
           alt="logo javascript"
@@ -388,11 +394,12 @@
       <div class="logo--portfolio--container">
         <a href="https://global-warming-final.web.app/" target="_blank">
         <img
+          data-aos="flip-left"data-aos-duration="1500" data-aos-once="true"
           class="portfolio--screen m-3 "
           src="assets/img/screenshoot/screenshot-global wariming.jpg"
           alt="logo bootstrap"
         /></a>
-        <div class="portfolio--grid--title">Globarl Warming</div>    
+        <div class="portfolio--grid--title">Global Warming</div>    
       </div>
     </div>
 
@@ -527,6 +534,7 @@
     </footer>
     <script src="./modal.js">
     </script>
+    <script src="./textCarousel.js" ></script>
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script>
        AOS.init(/* {disable:"phone"} */);
