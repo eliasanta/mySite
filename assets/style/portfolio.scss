@@ -1,5 +1,5 @@
-@import './colors.scss';
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+@import "./colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
 
 .portfolio {
   display: flex;
@@ -12,7 +12,6 @@
 }
 .image-portfolio {
   width: 300px;
-
 }
 .grid--portfolio {
   max-width: 1200px;
@@ -25,44 +24,42 @@
   margin: 0 auto;
 }
 
-
 .portfolio--screen {
-  width:300px;
-  height:150px;
+  width: 300px;
+  height: 150px;
   margin: 0 auto;
   border-radius: 5px;
-  opacity: 0.8;  
-  border: 1px solid rgba(0, 0, 255, .2);
-  
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 255, 0.2);
 }
 
-.portfolio--transition:hover{
-  box-shadow: 10px 10px 10px rgba($navFootBackground, 0.6), 10px 10px 10px rgba($navFootBackground, 0.5);
+/* .portfolio--transition:hover {
+  box-shadow: 10px 10px 10px rgba($navFootBackground, 0.6),
+    10px 10px 10px rgba($navFootBackground, 0.5);
   transition: 0.3s;
-} 
+  transform: translateY(4px);
+} */
 
-.project--title{
-  position:absolute;
+.project--title {
+  position: absolute;
   font-weight: 600;
   font-size: 18px;
-  color:black;
+  color: black;
   z-index: 10;
-  bottom:0;
-  left:30%;
+  bottom: 0;
+  left: 30%;
   text-decoration: none;
 }
-.portfolio--grid--title{
-  font-size:24px;
+.portfolio--grid--title {
+  font-size: 24px;
   font-weight: 500;
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
-  font-family: 'Edu SA Beginner', cursive;
+  font-family: "Edu SA Beginner", cursive;
 }
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
   .portfolio {
-
     margin-top: 60px;
   }
 }
-

@@ -34,11 +34,12 @@
   border: 1px solid rgba(0, 0, 255, 0.2);
 }
 
-.portfolio--transition:hover {
-  box-shadow: 10px 10px 10px rgba(192, 212, 250, 0.6), 10px 10px 10px rgba(192, 212, 250, 0.5);
+/* .portfolio--transition:hover {
+  box-shadow: 10px 10px 10px rgba($navFootBackground, 0.6),
+    10px 10px 10px rgba($navFootBackground, 0.5);
   transition: 0.3s;
-}
-
+  transform: translateY(4px);
+} */
 .project--title {
   position: absolute;
   font-weight: 600;
