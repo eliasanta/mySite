@@ -35,17 +35,7 @@
 
 .typewrite > .wrap {
   border-right: 0.08em solid #c0d4fa;
-  -webkit-animation: caret 1s steps(1) infinite;
-          animation: caret 1s steps(1) infinite;
-}
-
-@-webkit-keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(168, 40, 40, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
+  animation: caret 1s steps(1) infinite;
 }
 
 @keyframes blinkTextCursor {
